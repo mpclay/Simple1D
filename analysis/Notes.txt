@@ -1,0 +1,19 @@
+For the convergence studies, the following parameters were used in Simple1D:
+
+   1.  Advection equation
+   2.  L = 2.0
+   3.  xstart = 0.0
+   4.  n = 16, 32, 64, ...
+   5.  k = 2 and k = 3
+   6.  A constant dt of 0.000001
+   7.  An end time of 2.0, which corresponds to one flow-through time.
+   8.  Sinusoidal initial conditions.
+   9.  Wave speed a = 1.0 (see point 7).
+   10. Periodic boundary conditions.
+
+With these settings, the code is solving for one flow-through time of the linear
+advection equation with varying grid resolutions and WENO reconstruction orders.
+At the end of the simulation, the l2 and l-infinity errors are calculated
+relative to the initial conditions, and are used to calculate the convergence
+orders reported in the Convergence-k-2.dat and Convergence-k-3.dat files.
+
