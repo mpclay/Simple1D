@@ -24,14 +24,14 @@ Installation
 3. Enter the cmake curses GUI and press c to configure cmake:
     $ ccmake ..
     $ [in cmake curses gui] c
-5. Enter the installation prefix (note these can run from build just fine):
+4. Enter the installation prefix (note these can run from build just fine):
     $ [in cmake curses gui] CMAKE_INSTALL_PREFIX=/path/to/installation
-6. Configure your changes in cmake:
+5. Configure your changes in cmake:
     $ [in cmake curses gui] c
-7. Generate the Makefile and exit cmake curses gui:
+6. Generate the Makefile and exit cmake curses gui:
     $ [in cmake curses gui] g
-8. Make the programs.
+7. Make the programs.
     $ make
-9. Install the programs.
+8. Install the programs.
     $ make install
 
